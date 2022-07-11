@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Poppins";
+  src: URL("Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: URL("Poppins-SemiBold.ttf") format("truetype");
+}
+
+body {
+  padding: 0 16px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(85, 77, 86);
+  padding: 24px 0;
+  font-family: "Poppins-SemiBold";
+  font-size: 22px;
+}
+
+.button {
+  position: fixed;
+  bottom: 16px;
+  padding: 16px 0;
+  background-color: rgb(238, 103, 35);
+  width: calc(100% - 32px);
+  border-radius: 8px;
+  font-family: "Poppins-SemiBold";
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 120px 1fr 24px;
+}
+.box1 {
+  background-image: url(https://post.healthline.com/wp-content/uploads/2020/08/766x415_THUMBNAIL_how-many-calories-in-sunflower-seeds-732x415.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.box2 {
+  height: 120px;
+}
+
+.text1 {
+  margin: 6px;
+  color: rgb(85, 77, 86);
+  font-family: "Poppins-SemiBold";
+  font-size: 17px;
+}
+.text2 {
+  margin: 6px;
+  color: rgb(151, 145, 151);
+  font-family: "Poppins-regular";
+  font-size: 15px;
+}
+
+.text3 {
+  margin: 6px;
+  color: rgb(151, 145, 151);
+  font-family: "Poppins-regular";
+  font-size: 11px;
+}
+
+.material-icons {
+  font-size: 4px;
+  color: grey;
+}
+
+.box3 {
+  margin-right: 20px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 120px 1fr 24px;
+}
+
+.fish1 {
+  background-image: url(https://sc04.alicdn.com/kf/UTB8ZRVgh3nJXKJkSaelq6xUzXXa4.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 120px 1fr 24px;
+}
+
+.simit {
+  display: grid;
+  grid-template-columns: 54px 54px;
+  grid-template-rows: 54px 54px;
+  gap: 4px;
+  padding: 4px;
+}
+.simitbox {
+  border-radius: 4px;
+  background-size: cover;
+}
+.simitbox:nth-child(1) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCfqn2QDHuxHRPsQcD1YURHqs9KtF2g5Ap9g&usqp=CAU);
+}
+
+.simitbox:nth-child(2) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRFJ018S68Pz9gieaejgECS_6NPpP_vBcdg&usqp=CAU);
+}
+.simitbox:nth-child(3) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB3MZTlU38Afw--sB8UPdnAi11SbSz_Hm5sA&usqp=CAU);
+}
+.simitbox:nth-child(4) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyuwnwVYoG00hncXzV6D5xc-7Zf8MM3j7iUw&usqp=CAU);
+}
+
+.star-time {
+  text-decoration: none;
+  font-size: 11px;
+  color: rgb(151, 145, 151);
+  font-family: "Poppins-Regular", sans-serif;
+}
+
+.star-time img {
+  height: 12px;
+  width: 12px;
+}
+
+.star-time-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.star-time:first-child {
+  margin-right: 8px;
+}

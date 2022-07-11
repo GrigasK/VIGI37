@@ -1,0 +1,17 @@
+body {
+  background-image: url(https://www.wildplanetblog.com/img/norway-lofoten-ryten-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button.button {
+  background-color: red;
+  border: red;
+}
+
+div.container {
+  margin-top: 300px;
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+}

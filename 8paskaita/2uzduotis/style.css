@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  width: 400px;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-end;
+}
+
+fieldset {
+  margin: 20px;
+  width: 145px;
+}
+
+.login {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+span.form {
+  font-size: small;
+  font-style: italic;
+}

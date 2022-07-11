@@ -1,0 +1,19 @@
+
+
+link:link{
+color: blue;
+}
+
+input:focus{
+    border: rgb(202, 14, 14) solid 10px;
+}
+
+h1::before{
+    content: "XXXX";
+    color: blue;
+}
+
+h1::after{
+    content: "XXXX";
+    color: red;
+}

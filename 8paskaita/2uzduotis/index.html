@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Payment form</h1>
+    
+   
+    <h3>Required fields are followed by*.</h3>
+
+    <h2> Contact information</h2>
+
+    <form method="post" action="https://formspree.io/f/xoqrbyvl">
+    <div class="main">
+    <fieldset>
+        <legend>Title</legend>
+        <input type="radio" id="mister" name="gender" value="mister" required></input> 
+    <label for="mister">Mister</label><br>
+    <input type="radio" id="miss" name="gender" value="miss" required></input>
+     <label for="miss">Miss</label><br>
+     
+    </fieldset>
+  </div>
+
+  <div class="login">
+<label for="name">Name: *</labelName: *>
+    <input type="text" id="name" required></input>
+  </div>
+
+  
+  <div class="login">
+    <label for="email">Email: *
+        <input type="email" id="email" required></input>
+      </div>
+
+  <div class="login">
+        <label for="password">Password: *
+            <input type="password" id="password" required></input>
+          </div>  
+
+<h2> Payment information</h2>
+
+<div class="login">
+    <label for="card"> Card Type </label>
+    <select name="card" id="card" required>
+    <option value="" selected disabled hidden> </option>
+    <option value="visa">Visa</option>
+    <option value="maestro">Maestro</option>
+    <option value="master">Master</option>
+</select>
+
+</div>
+
+<div class="login">
+<label for="cardnumber"> Card Number: * </label>
+<input type="text" id="cardnumber" name="cardnumber" required minlength="16" maxlength="16">
+</div>
+
+<div class="login">
+    <label for="expires"> Expiration date: * <br><span class="form"> formated as mm/yy  </span> </label>
+<input type="date"  id="expires"  required>
+</div>
+
+<div class="submit">
+<button input type="submit">Validate the Payment</button>
+
+</div>
+
+    </form> 
+
+</body>
+</html>

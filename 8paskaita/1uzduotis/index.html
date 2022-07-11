@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="post" action="https://formspree.io/f/mdobjpqn">
+<h1>Create an Account</h1>
+
+
+<div>
+<label for="email">Email:</label>
+
+<input type="hidden" value="1234">
+<Input type="email" id="email" autofocus></Input> 
+
+</div>
+
+
+<div>
+<label for="pass">Password:</label>
+<input type="password" id="pass" minlength="8" maxlength="22"></Input>
+</div>
+
+<br>
+<br>
+
+<label for="quantity"> Age</label>
+<br>
+<input type="number" id="quantity" name="quantity" min="0" max="100" placeholder="SelectAge">
+<br>
+<br>
+
+<div>
+<label for="age">Age:</label>
+<select name="Select age" id="age">
+
+<option value="" selected disabled hidden> Select age</option>
+<option value="1">8</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+</div>
+
+<label for="description"> Tell us about yourself</label>
+<br>
+<textarea name="description" id="description" maxlength="200"></textarea>
+<br>
+
+<input type="checkbox" name="check"> I agree with <a href="http://google.com/">terms</a>
+<br>
+<br>
+<br>
+<input type="submit" value="Sign up">
+    </form>
+</body>
+</html>

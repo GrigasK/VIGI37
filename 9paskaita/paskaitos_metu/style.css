@@ -1,0 +1,64 @@
+.flex-disappear {
+  background-color: yellow;
+  font-size: medium;
+  height: 30px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: lightgreen;
+  height: 200px;
+}
+
+nav {
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  padding: 20px;
+}
+
+section {
+  display: flex;
+  flex-wrap: w;
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.about {
+  background-color: lightgrey;
+  width: 30%;
+}
+
+.title {
+  background-color: lightyellow;
+  width: 70%;
+}
+@media screen and (min-width: 500px) {
+  .flex-disappear {
+    display: none;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .about {
+    width: auto;
+  }
+}
+@media screen and (min-width: 700px) {
+  .title {
+    width: auto;
+  }
+}

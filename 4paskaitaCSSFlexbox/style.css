@@ -1,0 +1,73 @@
+
+div.main{
+max-width: 70rem;
+margin: 0 auto;
+
+}
+
+body{
+background-image: url(moto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    /*align-content: center;*/
+    
+}
+
+nav{
+    background-image: url(https://eu.evocdn.io/dealer/1072/content/media/Brands/TGOPNGG.png);
+    background-size: 50%;
+    background-color: yellow;
+    height: 140px;
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-end;   
+
+}
+
+
+nav a{
+    
+    text-decoration: none;
+    font-size: 30px;    
+    margin: 30px;
+ 
+    }
+
+section{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    
+}
+
+.column1{
+         padding: 20px;
+        
+}
+.column2{
+    padding: 20px;
+}
+
+
+
+.button1 { 
+    background-color: greenyellow; 
+    color: red;
+    height: 50px;
+ 
+}
+
+.button2 { 
+    background-color: greenyellow; 
+    color: red;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+justify-content: center;
+}
