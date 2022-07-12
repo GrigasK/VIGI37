@@ -23,42 +23,25 @@ nav a {
   padding: 20px;
 }
 
-section {
-  display: flex;
-  flex-wrap: w;
-  width: 100%;
-}
-
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 500px) {
   section {
     display: flex;
-    flex-wrap: wrap;
-  }
+     }
 }
 
 .about {
   background-color: lightgrey;
-  width: 30%;
+  width: 100%;
 }
 
 .title {
-  background-color: lightyellow;
-  width: 70%;
+  background-color: rgb(22, 238, 58);
+  width: 100%;
 }
 @media screen and (min-width: 500px) {
   .flex-disappear {
     display: none;
-    color: black;
   }
 }
 
-@media screen and (min-width: 700px) {
-  .about {
-    width: auto;
-  }
-}
-@media screen and (min-width: 700px) {
-  .title {
-    width: auto;
-  }
-}
+
