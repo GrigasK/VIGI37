@@ -1,0 +1,83 @@
+@font-face {
+    font-family:"Nunito-sans-Regular"; 
+    src: url(17paskaitaSASS\Namudarbas\styles.scss) format("truetype"); 
+}
+
+$font: "Nunito-sans-Regular";
+$btn-border-radius: 20px;
+$bg-color: white;
+$text-color1: #080f1a;
+$text-color2: #73829e;
+$padding: 1px;
+$underline: underline dotted #73829e;
+
+
+.card-group{
+font-family: $font;
+   display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+   padding-left: 200px;
+   padding-right: 200px;
+   background-color: $bg-color;
+   text-align: center;
+
+.card{
+
+}
+
+.text1{
+    padding: $padding;
+    color: $text-color1;    
+}
+.text3{
+    padding: $padding;
+    color: $text-color1; 
+    text-decoration: $underline;
+}
+
+.price{
+    align-self: center;
+    width: 60%;
+    height: 70px;
+    background-color: #f4f6fc;
+    border: none ;
+    border-radius: 30px;
+    display: grid;
+    grid-template-areas: 
+    "sidebar content"
+    "sidebar content" 
+
+}
+
+.grid-item-1{
+    text-align: end;
+    font-style: bold;
+    grid-area: sidebar;
+    font-size: 40px;
+}
+.grid-item-2{
+    grid-area: content;
+   justify-self: flex-start;
+}
+.grid-item-3{
+    align-self: center;
+    justify-self: flex-start;
+    grid-area: content;
+}
+
+.button{
+    align-self: center;
+    height: 50px;
+    width: 70%;
+    border: solid 2px #303ca5;
+    border-radius: 5px;
+    color: #303ca5;
+    background-color: white;    
+}
+.text2{
+    padding: 3px;
+    font-size: 11px;
+    color: $text-color2;
+}
+}

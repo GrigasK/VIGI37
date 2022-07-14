@@ -1,0 +1,41 @@
+$bg-color: blue;  
+$my-font: verdana;
+
+// .main{
+// font: 15px $my-font;
+//  background-color: $bg-color;
+//     width: 100px;
+//     height: 100px;
+// }
+
+%message-shared{
+    border: 5px solid black;
+    padding: 10px;
+    
+}
+
+@mixin colors($property, $color){
+    border-color: black;
+    width: 150px;
+    height: 200px;
+    border: 10px solid $property;
+    background-color: $color;
+}
+
+@mixin transform($property){
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property; 
+}
+
+.main{
+  @include colors(red, green) ;
+//   background-color: yellow;
+    // @include transform (rotate(45deg));
+}
+.main2{
+    background-color: $bg-color;
+    @extend %message-shared;
+    width: 100px;
+    height: 100px;
+}

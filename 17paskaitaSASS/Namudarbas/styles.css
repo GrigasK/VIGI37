@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Nunito-sans-Regular";
+  src: url(17paskaitaSASSNamudarbasstyles.scss) format("truetype");
+}
+.card-group {
+  font-family: "Nunito-sans-Regular";
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: white;
+  text-align: center;
+}
+.card-group .text1 {
+  padding: 1px;
+  color: #080f1a;
+}
+.card-group .text3 {
+  padding: 1px;
+  color: #080f1a;
+  -webkit-text-decoration: underline dotted #73829e;
+          text-decoration: underline dotted #73829e;
+}
+.card-group .price {
+  align-self: center;
+  width: 60%;
+  height: 70px;
+  background-color: #f4f6fc;
+  border: none;
+  border-radius: 30px;
+  display: grid;
+  grid-template-areas: "sidebar content" "sidebar content";
+}
+.card-group .grid-item-1 {
+  text-align: end;
+  font-style: bold;
+  grid-area: sidebar;
+  font-size: 40px;
+}
+.card-group .grid-item-2 {
+  grid-area: content;
+  justify-self: flex-start;
+}
+.card-group .grid-item-3 {
+  align-self: center;
+  justify-self: flex-start;
+  grid-area: content;
+}
+.card-group .button {
+  align-self: center;
+  height: 50px;
+  width: 70%;
+  border: solid 2px #303ca5;
+  border-radius: 5px;
+  color: #303ca5;
+  background-color: white;
+}
+.card-group .text2 {
+  padding: 3px;
+  font-size: 11px;
+  color: #73829e;
+}/*# sourceMappingURL=styles.css.map */
