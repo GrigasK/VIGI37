@@ -19,6 +19,9 @@ body {
   padding-left: 25px;
   padding-right: 25px;
 }
+.card-group h3 {
+  padding-top: 20px;
+}
 .card-group .text1 {
   padding: 1px 10px;
   color: #080f1a;
