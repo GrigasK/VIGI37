@@ -1,6 +1,6 @@
 @font-face {
     font-family:"Nunito-sans-Regular"; 
-    src: url(17paskaitaSASS\Namudarbas\styles.scss) format("truetype"); 
+    src: url(17paskaitaSASS\Namudarbas\NunitoSans-SemiBoldItalic.ttf) format("truetype"); 
 }
 
 $font: "Nunito-sans-Regular";
@@ -22,24 +22,36 @@ font-family: $font;
    background-color: $bg-color;
    text-align: center;
 
-.card{
 
+.card{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .text1{
     padding: $padding;
     color: $text-color1;    
 }
+.text2{  
+    font-size: 11px;
+    color: $text-color2;
+}
 .text3{
     padding: $padding;
     color: $text-color1; 
     text-decoration: $underline;
 }
+.text4{  
+    font-size: 11px;
+    color: $text-color2;
+    padding: 0;
+    margin-top: -20px;
+}
 
 .price{
     align-self: center;
     width: 60%;
-    height: 70px;
+    height: 55px;
     background-color: #f4f6fc;
     border: none ;
     border-radius: 30px;
@@ -76,7 +88,7 @@ font-family: $font;
     background-color: white;    
 }
 .text2{
-    padding: 3px;
+  
     font-size: 11px;
     color: $text-color2;
 }

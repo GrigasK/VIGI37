@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Nunito-sans-Regular";
-  src: url(17paskaitaSASSNamudarbasstyles.scss) format("truetype");
+  src: url(17paskaitaSASSNamudarbasNunitoSans-SemiBoldItalic.ttf) format("truetype");
 }
 .card-group {
   font-family: "Nunito-sans-Regular";
@@ -12,9 +12,17 @@
   background-color: white;
   text-align: center;
 }
+.card-group .card {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .card-group .text1 {
   padding: 1px;
   color: #080f1a;
+}
+.card-group .text2 {
+  font-size: 11px;
+  color: #73829e;
 }
 .card-group .text3 {
   padding: 1px;
@@ -22,10 +30,16 @@
   -webkit-text-decoration: underline dotted #73829e;
           text-decoration: underline dotted #73829e;
 }
+.card-group .text4 {
+  font-size: 11px;
+  color: #73829e;
+  padding: 0;
+  margin-top: -20px;
+}
 .card-group .price {
   align-self: center;
   width: 60%;
-  height: 70px;
+  height: 55px;
   background-color: #f4f6fc;
   border: none;
   border-radius: 30px;
@@ -57,7 +71,6 @@
   background-color: white;
 }
 .card-group .text2 {
-  padding: 3px;
   font-size: 11px;
   color: #73829e;
 }/*# sourceMappingURL=styles.css.map */
