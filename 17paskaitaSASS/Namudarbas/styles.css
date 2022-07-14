@@ -2,6 +2,10 @@
   font-family: "Nunito-sans-Regular";
   src: url(17paskaitaSASSNamudarbasNunitoSans-SemiBoldItalic.ttf) format("truetype");
 }
+body {
+  background-color: lightgrey;
+}
+
 .card-group {
   font-family: "Nunito-sans-Regular";
   display: flex;
@@ -9,15 +13,14 @@
   margin-bottom: 50px;
   padding-left: 200px;
   padding-right: 200px;
-  background-color: white;
   text-align: center;
 }
 .card-group .card {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .card-group .text1 {
-  padding: 1px;
+  padding: 1px 10px;
   color: #080f1a;
 }
 .card-group .text2 {
@@ -25,7 +28,7 @@
   color: #73829e;
 }
 .card-group .text3 {
-  padding: 1px;
+  padding: 1px 10px;
   color: #080f1a;
   -webkit-text-decoration: underline dotted #73829e;
           text-decoration: underline dotted #73829e;
@@ -57,14 +60,16 @@
   justify-self: flex-start;
 }
 .card-group .grid-item-3 {
-  align-self: center;
+  align-self: flex-end;
   justify-self: flex-start;
   grid-area: content;
+  padding-bottom: 10px;
 }
 .card-group .button {
   align-self: center;
   height: 50px;
   width: 70%;
+  margin: 10px;
   border: solid 2px #303ca5;
   border-radius: 5px;
   color: #303ca5;

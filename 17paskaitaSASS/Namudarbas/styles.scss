@@ -8,8 +8,13 @@ $btn-border-radius: 20px;
 $bg-color: white;
 $text-color1: #080f1a;
 $text-color2: #73829e;
-$padding: 1px;
+$padding: 1px 10px;
 $underline: underline dotted #73829e;
+
+body{
+    background-color: lightgrey;
+
+}
 
 
 .card-group{
@@ -19,13 +24,13 @@ font-family: $font;
   margin-bottom: 50px;
    padding-left: 200px;
    padding-right: 200px;
-   background-color: $bg-color;
+
    text-align: center;
 
 
 .card{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .text1{
@@ -73,15 +78,17 @@ font-family: $font;
    justify-self: flex-start;
 }
 .grid-item-3{
-    align-self: center;
+    align-self: flex-end;
     justify-self: flex-start;
     grid-area: content;
+    padding-bottom: 10px;
 }
 
 .button{
     align-self: center;
     height: 50px;
     width: 70%;
+    margin: 10px;
     border: solid 2px #303ca5;
     border-radius: 5px;
     color: #303ca5;
