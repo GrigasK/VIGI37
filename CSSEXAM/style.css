@@ -1,0 +1,112 @@
+.header {
+  margin-top: 70px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+}
+.header .logo {
+  height: 36px;
+  width: 198px;
+}
+.header .logo .nav-link {
+  text-decoration: none;
+  color: #555555;
+}
+
+@media screen and (min-width: 428px) {
+  .nav-link3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 428px) {
+  .header {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    display: flex;
+    justify-content: spacebetween-;
+  }
+  .header .logo {
+    height: 36px;
+    width: 198px;
+  }
+  .header .nav-link {
+    display: none;
+  }
+  .header .nav-link3 {
+    color: #999999;
+    margin-left: 32px;
+  }
+  .hero {
+    max-width: 482.62px;
+    max-height: 448px;
+    margin-left: 32px;
+    margin-top: 110px;
+    display: flex;
+  }
+  .hero .text {
+    width: 274px;
+    height: 410px;
+  }
+  .hero .text .launch-text {
+    font-style: Bold;
+    color: #FF3998;
+    width: 166px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 10%;
+    text-align: left;
+  }
+  .hero .text .nft-text {
+    color: #111111;
+    max-width: 274px;
+    height: 116px;
+    font-size: 38px;
+    line-height: 58px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+  }
+  .hero .text .button1 {
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, purple, orange) border-box;
+    border: 5px solid transparent;
+    border-radius: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .text .graphic {
+    align-self: flex-start;
+  }
+  .upsell {
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 428px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .upsell .upsell-title {
+    font-weight: 500;
+    font-size: 40px;
+    font-style: bold;
+    width: 364px;
+    line-height: 48px;
+    line-height: 100%;
+    text-align: left;
+  }
+  .upsell .upsell-text {
+    width: 364px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .grid-container {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
