@@ -13,6 +13,7 @@ body{
 }
 
 .mainbody{
+
     max-width: 1440px;
     height: 3300px;
     margin-left: 40px;
@@ -21,7 +22,7 @@ body{
 }
 
 .header{
-   
+   padding-top: 40px;
      margin-top: 70px;
     margin-left: 80px;
     margin-right: 80px;
@@ -47,23 +48,23 @@ body{
 
 .hero{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin-top: 306px;  
-    padding-left: 80px;
-    padding-right: 240px;
-
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;  
+    padding: 40px;
+    
+   
+    
+}
 .hero-text{
 display: flex;
 flex-direction: column;
+justify-content: space-between;
 
-max-width: 620px;
-height: 483px;
  
-       
-
+ 
     .launch-text{
-
+       display: flex;
         font-style: Bold;
         color: #FF3998;        
         height: 30px;
@@ -80,8 +81,7 @@ height: 483px;
         font-size: 96px;
         line-height: 58px;
         line-height: 100%;
-    
-    }
+        }
 
     .hero-content{
         color:#555555;
@@ -89,40 +89,30 @@ height: 483px;
         line-height: 30px;
        
         padding-top: 20px;
-        font-weight: 400;
-        width: 537px;
+        font-weight: 400;        
     }
 
    
-     .button1{    
+     .btn{    
             background: linear-gradient(#fff, #fff) padding-box,
               linear-gradient(45deg, blue, yellow) border-box;
             border: 5px solid transparent;
             border-radius: 100px;
             padding: 10px 20px;
-            width: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 140px;
+            cursor: pointer;
           
+   }
+   .btn:hover{
+    background: #999999;
+   }
+
+   .hero-graphic{
+    width: 500px;
+    height: auto;
    }
 
 }
-}
-
-// .hero-graphic{
-// width: 354px;
-// height: 519px;
-// margin-right: 21px;
-// display: flex;
-
-
-.graphic{    
-    width: 100%;
-    max-height: auto;
-    
-    }
-
 
 
 
@@ -169,7 +159,8 @@ height: 483px;
 
 .showcase{
     height: 558px;
-    width: 1280px;
+    margin: 0 40px 250px 40px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     
@@ -180,7 +171,7 @@ height: 483px;
 
 .showcase-container{
     display: flex;
-    margin-left: 40px;
+    flex-wrap: wrap;    
     padding-top: 100px;
     flex-direction: column;
     justify-content: baseline;
@@ -188,15 +179,16 @@ height: 483px;
 
 
 .showcase-title{
-       margin: 40px 0 0 40px;
+       
     height: 96px;
        font-size: 40px;
+       
     }
     
     
 
 .showcase-text{
-        margin-left: 40px;
+        
         height: 30px;
        font-size: 20px;
        color: #555555;
@@ -209,12 +201,9 @@ height: 483px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-  margin: 40px;
-  
+    justify-content: space-between;
 
- 
-  
+
   .people-text-box {
       display: flex;
       flex-direction: row;
@@ -229,7 +218,7 @@ height: 483px;
   .people-left .people-right {
       display: flex;
       flex-direction: column;
-    justify-content: space-between;
+    
     }
   
   .people-color-text {
@@ -263,9 +252,22 @@ height: 483px;
 
 
 .footer{
+
+    
+    .grey-text{
+        color: #555555;
+    }
+
+    .social-icons{
+        color:#555555;
+        display: flex;
+        margin: 0 0 20px -40px;
+        padding: 0;
+    }
     .footer-titles{
         font-family: $font;
         padding-top: 20px;
+        margin-bottom: 20px;
         font-size: 16px;
         color: #555555;
         font-weight: 700; 
@@ -282,14 +284,58 @@ height: 483px;
         color: #999999;
         padding-top: 64px;
     }
+
 }
+    .footer-text-container{
+
+        display: flex;
+        
+    }
+    .footer-text-box{
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+    }
+  
+
+
+
+
+.end-footer{
+  margin: 40px;
+  padding: 40px;
+    padding-top: 50px;
+    color: #999999;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
 
 
 @media screen and (min-width: 429px)
 {
     .nav-link2{
         display: none;   
+}
+
+.footer{
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    .footer-text-container:nth-child(2){
+        margin-left: 650px;
+            
+    }
+
 }}
+
+
 
 @media screen and (max-width: 428px){
     
@@ -297,7 +343,7 @@ height: 483px;
     border: solid 1px gray;
     border-radius: 15px;
     width: 428px;
-    padding-left: 0;
+    
 }
 
 .header{
@@ -324,8 +370,8 @@ height: 483px;
     display: flex;
     align-content: flex-start;
     width: 482.62px;
-    margin-top: 110px;
-    padding: 0 0 0 32px;
+    margin: 32px;
+    padding: 0;
 
 .hero-text{
  max-width: 274px;
@@ -383,13 +429,14 @@ height: 483px;
 
 .grid-sell{
     width: 100%;
-    margin-top: 40px;
+    margin: 32px;
+    
 
     .grid-item4{
         display: none;
     }
 .grid-container {
-    padding: 0 32px 0 32px;
+    
     display: grid; 
   grid-template-columns: 50% 50%; 
   grid-template-rows: 1fr 1fr; 
@@ -406,21 +453,13 @@ height: 483px;
     // background-repeat: no-repeat;
     // background-position: center;    
     // height: 326px;
-    padding-left: 0;
-    margin-left: 0;
-    padding-top: 30px;
+    padding: 32px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.upsell-text {
-    padding-left: 32px;
-}
-.upsell-title{
-    padding-left: 32px;
-}
 
 .grid-item1{
     overflow: hidden;
@@ -431,18 +470,21 @@ height: 483px;
 .showcase{
     height: 642px;
     width: 1280px;
+    padding: 0;
+    margin: 32px;
+    padding-bottom: 150px;
    
 .showcase-container{
-    margin-left: 0;
+    
 .showcase-title{   
-    padding-left: 32px;
+  
     width: 360px;
     height: 96px;
    font-size: 40px;
 }
 
 .showcase-text{
-    padding-left: 32px;
+
     width: 330px;
     height: 30px;
    font-size: 20px;
@@ -483,8 +525,18 @@ height: 483px;
     flex-direction: column;
     width: 80px;
 }
-
 }
+
+.end-footer{
+    display: flex;
+    justify-content: flex-start;
+    margin: 32px;
+    padding: 0;
+}
+.launching-date{
+    display: none;
+}
+
 }
 
 
