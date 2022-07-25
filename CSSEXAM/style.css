@@ -303,16 +303,6 @@ body {
   .hero .hero-text .hero-content {
     width: 274px;
   }
-  .hero .hero-text .button1 {
-    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, purple, orange) border-box;
-    border: 5px solid transparent;
-    border-radius: 100px;
-    padding: 10px 20px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .hero .graphic {
     display: flex;
     width: 100%;
