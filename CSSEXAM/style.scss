@@ -48,7 +48,7 @@ body{
 .hero{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 40px;  
     padding: 40px;
     
@@ -66,9 +66,7 @@ justify-content: space-between;
        display: flex;
         font-style: Bold;
         color: #FF3998;        
-        
         font-size: 20px;
-    
         text-align: left;
     }
     .nft-text{
