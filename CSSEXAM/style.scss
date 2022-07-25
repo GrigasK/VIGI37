@@ -15,7 +15,6 @@ body{
 .mainbody{
 
     max-width: 1440px;
-    height: 3300px;
     margin-left: 40px;
     background-color: white;
     border-radius: 15px;
@@ -67,26 +66,22 @@ justify-content: space-between;
        display: flex;
         font-style: Bold;
         color: #FF3998;        
-        height: 30px;
+        
         font-size: 20px;
-        line-height: 19px;
-        letter-spacing: 10%;
+    
         text-align: left;
     }
     .nft-text{
         color: #111111;
         font-style: bold;
         font-weight: 900;
-        height: 116px;
         font-size: 96px;
-        line-height: 58px;
-        line-height: 100%;
+        
         }
 
     .hero-content{
         color:#555555;
         font-size: 20px;
-        line-height: 30px;
        
         padding-top: 20px;
         font-weight: 400;        
@@ -95,7 +90,7 @@ justify-content: space-between;
    
      .btn{    
             background: linear-gradient(#fff, #fff) padding-box,
-              linear-gradient(45deg, blue, yellow) border-box;
+              linear-gradient(90deg, blue, yellow) border-box;
             border: 5px solid transparent;
             border-radius: 100px;
             padding: 10px 20px;
@@ -107,12 +102,16 @@ justify-content: space-between;
     background: #999999;
    }
 
-   .hero-graphic{
-    width: 500px;
-    height: auto;
-   }
-
 }
+
+.nft-text2{
+    color: #111111;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 70px;
+   
+    
+    }
 
 
 
@@ -425,6 +424,15 @@ justify-content: space-between;
     height: auto;
     
     }
+}
+
+.nft-text2{
+    color: #111111;
+
+    font-weight: 900;
+    max-width: 274px;    
+    font-size: 40px;
+  
 }
 
 .grid-sell{
