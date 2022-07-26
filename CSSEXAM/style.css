@@ -108,13 +108,16 @@ body {
   font-size: 20px;
 }
 
+.grid-sell {
+  margin: 40px;
+  padding: 40px;
+}
+
 .grid-container {
-  margin-top: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-right: 40px;
-  margin-left: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .showcase {
@@ -316,7 +319,8 @@ body {
   }
   .grid-sell {
     width: 100%;
-    margin: 32px;
+    margin: 0;
+    padding: 32px;
   }
   .grid-sell .grid-item4 {
     display: none;
